@@ -5,15 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a410e781-ddca-49d8-bffa-e94da7e048e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whitelist-spring-boot-start/src/main/java/cn/lyj/middleware/whitelist/DoJoinPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whitelist-spring-boot-start/src/main/java/cn/lyj/middleware/whitelist/annotation/DoWhiteList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whitelist-spring-boot-start/src/main/java/cn/lyj/middleware/whitelist/config/WhiteListAutoConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whitelist-spring-boot-start/src/main/java/cn/lyj/middleware/whitelist/config/WhiteListProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whitelist-spring-boot-start/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whitelist-spring-boot-start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/whitelist-spring-boot-start/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677072446412</updated>
-      <workItem from="1677072447898" duration="384000" />
+      <workItem from="1677072447898" duration="1779000" />
     </task>
     <servers />
   </component>
@@ -53,7 +75,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
