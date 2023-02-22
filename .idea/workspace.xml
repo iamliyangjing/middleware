@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a410e781-ddca-49d8-bffa-e94da7e048e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/whitelist-spring-boot-start/src/main/java/cn/lyj/middleware/whitelist/DoJoinPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whitelist-spring-boot-start/src/main/java/cn/lyj/middleware/whitelist/annotation/DoWhiteList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whitelist-spring-boot-start/src/main/java/cn/lyj/middleware/whitelist/config/WhiteListAutoConfigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whitelist-spring-boot-start/src/main/java/cn/lyj/middleware/whitelist/config/WhiteListProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whitelist-spring-boot-start/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteList-spring-boot-starter-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteList-spring-boot-starter-test/src/main/java/cn/lyj/ApiTestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteList-spring-boot-starter-test/src/main/java/cn/lyj/middleware/whitelist/interfaces/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteList-spring-boot-starter-test/src/main/java/cn/lyj/middleware/whitelist/interfaces/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whiteList-spring-boot-starter-test/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whitelist-spring-boot-start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/whitelist-spring-boot-start/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="whitelist-spring-boot-start" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +48,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
@@ -55,6 +59,40 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Spring Boot.ApiTestApplication (1)">
+    <configuration name="ApiTestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="whiteList-spring-boot-starter-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.lyj.ApiTestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lyj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="whiteList-spring-boot-starter-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyj.ApiTestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApiTestApplication (1)" />
+        <item itemvalue="Spring Boot.ApiTestApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677072446412</updated>
-      <workItem from="1677072447898" duration="1779000" />
+      <workItem from="1677072447898" duration="4981000" />
     </task>
     <servers />
   </component>
