@@ -10,6 +10,7 @@
         <module name="hystrix-spring-boot-starter" />
         <module name="whitelist-spring-boot-starter" />
         <module name="hystrix-spring-boot-starter-test" />
+        <module name="method-spring-boot-starter" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hystrix-spring-boot-starter" options="-parameters" />
       <module name="hystrix-spring-boot-starter-test" options="-parameters" />
+      <module name="method-spring-boot-starter" options="-parameters" />
       <module name="whitelist-spring-boot-start" options="-parameters" />
       <module name="whitelist-spring-boot-starter" options="-parameters" />
     </option>
