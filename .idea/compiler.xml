@@ -6,14 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hystrix-spring-boot-starter" />
         <module name="whiteList-spring-boot-starter-test" />
-        <module name="whitelist-spring-boot-start" />
+        <module name="whitelist-spring-boot-starter" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hystrix-spring-boot-starter" target="1.8" />
+      <module name="midawller" target="1.8" />
+      <module name="whitelist-spring-boot-starter" target="1.8" />
+      <module name="whiteList-spring-boot-starter-test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hystrix-spring-boot-starter" options="-parameters" />
       <module name="whitelist-spring-boot-start" options="-parameters" />
+      <module name="whitelist-spring-boot-starter" options="-parameters" />
     </option>
   </component>
 </project>
