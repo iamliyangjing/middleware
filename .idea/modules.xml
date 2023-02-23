@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hystrix-spring-boot-starter/hystrix-spring-boot-starter.iml" filepath="$PROJECT_DIR$/hystrix-spring-boot-starter/hystrix-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/midawller.iml" filepath="$PROJECT_DIR$/midawller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/whiteList-spring-boot-starter-test/whiteList-spring-boot-starter-test.iml" filepath="$PROJECT_DIR$/whiteList-spring-boot-starter-test/whiteList-spring-boot-starter-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/whitelist-spring-boot-start/whitelist-spring-boot-starter.iml" filepath="$PROJECT_DIR$/whitelist-spring-boot-start/whitelist-spring-boot-starter.iml" />
+    </modules>
+  </component>
+</project>
