@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "lyj.whitelist",
+      "type": "cn.lyj.middleware.whitelist.config.WhiteListProperties",
+      "sourceType": "cn.lyj.middleware.whitelist.config.WhiteListProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "lyj.whitelist.users",
+      "type": "java.lang.String",
+      "sourceType": "cn.lyj.middleware.whitelist.config.WhiteListProperties"
+    }
+  ],
+  "hints": []
+}

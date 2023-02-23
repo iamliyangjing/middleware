@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>whitelist-spring-boot-start</module>
+        <module>whiteList-spring-boot-starter-test</module>
+        <module>hystrix-spring-boot-starter</module>
+        <module>hystrix-spring-boot-starter-test</module>
     </modules>
 
     <properties>
