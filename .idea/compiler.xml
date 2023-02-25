@@ -11,6 +11,7 @@
         <module name="whitelist-spring-boot-starter" />
         <module name="hystrix-spring-boot-starter-test" />
         <module name="method-spring-boot-starter" />
+        <module name="mybatis" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +20,7 @@
       <module name="hystrix-spring-boot-starter" options="-parameters" />
       <module name="hystrix-spring-boot-starter-test" options="-parameters" />
       <module name="method-spring-boot-starter" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
       <module name="whitelist-spring-boot-start" options="-parameters" />
       <module name="whitelist-spring-boot-starter" options="-parameters" />
     </option>
